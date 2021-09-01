@@ -42,6 +42,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Common\BaseStreamReader.cs" />
+    <Compile Include="Conversion\BigEndianBitConverter.cs" />
+    <Compile Include="Conversion\DoubleConverter.cs" />
+    <Compile Include="Conversion\EndianBitConverter.cs" />
+    <Compile Include="Conversion\Endianness.cs" />
+    <Compile Include="Conversion\LittleEndianBitConverter.cs" />
+    <Compile Include="Extension\BinaryReaderExtension.cs" />
     <Compile Include="Extension\BytesExtension.cs" />
     <Compile Include="Extension\StreamExtension.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
